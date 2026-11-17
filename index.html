@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#24163f">
+  <meta name="description" content="Uma surpresa de aniversário feita com amor para Nalanda.">
+  <title>Para Nalanda, com amor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="sparkle-layer" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Início">N<span>♥</span></a>
+    <div class="top-actions">
+      <span class="music-label" id="musicLabel">Coisa Linda</span>
+      <button class="music-button" id="musicButton" type="button" aria-label="Tocar música" title="Tocar música">
+        <span class="music-icon">♫</span><span id="musicText">Música</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">UM PRESENTE FEITO SÓ PARA VOCÊ</p>
+        <h1>Hoje o mundo<br>celebra <em>você,</em><br>Nalanda.</h1>
+        <p class="hero-description">Queria poder estar aí para te entregar seu presente pessoalmente. Como ainda há quilômetros entre nós, preparei este cantinho com carinho — abre com calma, porque cada parte é um pedacinho de mim.</p>
+        <button class="primary-button" id="goToGift" type="button">Descobrir minha surpresa</button>
+        <p class="tiny-note">Feito com carinho, do Chile para o Brasil.</p>
+      </div>
+      <div class="hero-art" aria-label="Ilustração decorativa de presente">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="hero-heart">♥</div>
+        <div class="floating-star star-a">✦</div><div class="floating-star star-b">✧</div>
+        <div class="hero-flower">✿</div>
+        <div class="hero-caption">for my favorite person</div>
+      </div>
+    </section>
+
+    <section class="gift-section section" id="presente">
+      <div class="section-heading">
+        <p class="eyebrow">UM CLIQUE, UMA SURPRESA</p>
+        <h2>Tem algo esperando<br><em>por você...</em></h2>
+        <p>Toque na caixa para descobrir o que preparei.</p>
+      </div>
+      <div class="gift-stage" id="giftStage">
+        <div class="gift-glow"></div>
+        <div class="gift-box" id="giftBox" role="button" tabindex="0" aria-label="Abrir caixa de presente">
+          <div class="gift-lid"><div class="lid-ribbon"></div><div class="lid-bow"><i></i><i></i><b></b></div></div>
+          <div class="gift-body"><div class="box-ribbon"></div><div class="box-ribbon-horizontal"></div></div>
+          <div class="gift-shadow"></div>
+        </div>
+        <div class="gift-hint" id="giftHint">TOQUE PARA ABRIR</div>
+        <div class="surprise-message" id="surpriseMessage">
+          <span class="surprise-kicker">DE MARCO, COM AMOR · CHILE → BRASIL</span>
+          <strong>Feliz aniversário,<br><em>minha Nalanda!</em></strong>
+          <span class="surprise-sub">Eu queria estar aí para te abraçar. Até esse abraço chegar, deixo um pedacinho de mim aqui.</span>
+          <button class="text-button" id="seeMemories" type="button">Ver nossas lembranças ↓</button>
+        </div>
+        <div class="celebration-layer" id="celebrationLayer" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section class="memories-section section" id="lembrancas">
+      <div class="section-heading">
+        <p class="eyebrow">PEQUENOS INSTANTES, GRANDES SENTIMENTOS</p>
+        <h2>Nossa história em<br><em>fotografias.</em></h2>
+        <p>Cada imagem guarda um pedacinho de nós.</p>
+      </div>
+      <div class="photo-grid" id="photoGrid">
+        <figure class="photo-card tilt-left"><div class="photo-frame"><img src="assets/fotos/Primera%20foto.jpeg" alt="Nossa primeira foto"><span class="photo-placeholder">Nossa primeira foto</span></div><figcaption>Nossa primeira foto. Um começo que guardo com carinho.</figcaption></figure>
+        <figure class="photo-card tilt-right"><div class="photo-frame"><img src="assets/fotos/Foto%204.jpeg" alt="Nossa lembrança 4"><span class="photo-placeholder">Adicione<br>foto 04</span></div><figcaption>Curtindo em Angra com a minha mulher</figcaption></figure>
+        <figure class="photo-card tilt-right"><div class="photo-frame"><img src="assets/fotos/Foto%2011.jpeg" alt="Nossa lembrança 11"><span class="photo-placeholder">Adicione<br>foto 11</span></div><figcaption>O nosso amor também mora nos detalhes e nas risadas divididas à mesa</figcaption></figure>
+        <figure class="photo-card tilt-left"><div class="photo-frame"><img src="assets/fotos/Foto%203.jpeg" alt="Nossa lembrança 3"><span class="photo-placeholder">Adicione<br>foto 03</span></div><figcaption>O azul do mar de Angra só se compara à imensidão do que sinto por você</figcaption></figure>
+        <figure class="photo-card tilt-right"><div class="photo-frame"><img src="assets/fotos/foto%2017.jpeg" alt="Nossa lembrança 17"><span class="photo-placeholder">Foto 17</span></div><figcaption>Nosso primeiro beijo, quando nossos mundos se uniram</figcaption></figure>
+        <figure class="photo-card tilt-left"><div class="photo-frame"><img src="assets/fotos/Foto%201.jpeg" alt="Nossa lembrança 1"><span class="photo-placeholder">Adicione<br>foto 01</span></div><figcaption>Esses olhos que me apaixonam</figcaption></figure>
+        <figure class="photo-card tilt-left"><div class="photo-frame"><img src="assets/fotos/Foto%2012.jpeg" alt="Nossa lembrança 12"><span class="photo-placeholder">Adicione<br>foto 12</span></div><figcaption>Minha mulher na sua sessão de fotos, tão fofinha</figcaption></figure>
+        <figure class="photo-card tilt-right"><div class="photo-frame"><img src="assets/fotos/Foto%205.jpeg" alt="Nossa lembrança 5"><span class="photo-placeholder">Adicione<br>foto 05</span></div><figcaption>Nadando com peixes</figcaption></figure>
+        <figure class="photo-card tilt-left"><div class="photo-frame"><img src="assets/fotos/foto%2018.jpeg" alt="Nossa lembrança 18"><span class="photo-placeholder">Foto 18</span></div><figcaption>Minha mulher brasileira gostosa e perfeita</figcaption></figure>
+        <figure class="photo-card tilt-right"><div class="photo-frame"><img src="assets/fotos/Foto%202.jpeg" alt="Nossa lembrança 2"><span class="photo-placeholder">Adicione<br>foto 02</span></div><figcaption>Um pedacinho de paraíso que eu escolheria viver mil vezes com você</figcaption></figure>
+        <figure class="photo-card tilt-left"><div class="photo-frame"><img src="assets/fotos/foto%2014.jpeg" alt="Nossa lembrança 14"><span class="photo-placeholder">Foto 14</span></div><figcaption>Foto tirada após o almoço em uma viagem a Angra</figcaption></figure>
+        <figure class="photo-card tilt-left"><div class="photo-frame"><img src="assets/fotos/Foto%209.jpeg" alt="Nossa lembrança 9"><span class="photo-placeholder">Adicione<br>foto 09</span></div><figcaption>Meu lugar favorito no mundo inteiro é, sem dúvida, bem perto de você</figcaption></figure>
+        <figure class="photo-card tilt-right"><div class="photo-frame"><img src="assets/fotos/Foto%2013.jpeg" alt="Nossa lembrança 13"><span class="photo-placeholder">Foto 13</span></div><figcaption>aproveitando nosso amor na praia</figcaption></figure>
+        <figure class="photo-card tilt-right"><div class="photo-frame"><img src="assets/fotos/Foto%207.jpeg" alt="Nossa lembrança 7"><span class="photo-placeholder">Adicione<br>foto 07</span></div><figcaption>primeira foto de namorando</figcaption></figure>
+        <figure class="photo-card tilt-right"><div class="photo-frame"><img src="assets/fotos/foto%2015.jpeg" alt="Nossa lembrança 15"><span class="photo-placeholder">Foto 15</span></div><figcaption>Desde pequena com esse olhar que já sabia como iluminar o mundo</figcaption></figure>
+        <figure class="photo-card tilt-right"><div class="photo-frame"><img src="assets/fotos/Foto%2010.jpeg" alt="Nossa lembrança 10"><span class="photo-placeholder">Adicione<br>foto 10</span></div><figcaption>Bebendo cerveja com minha mulher e assistindo ao jogo do Flamengo</figcaption></figure>
+        <figure class="photo-card tilt-left"><div class="photo-frame"><img src="assets/fotos/Foto%206.jpeg" alt="Nossa lembrança 6"><span class="photo-placeholder">Adicione<br>foto 06</span></div><figcaption>Te ver nesse dia foi a certeza de que a espera valeu cada segundo</figcaption></figure>
+        <figure class="photo-card tilt-left"><div class="photo-frame"><img src="assets/fotos/foto%2016.jpeg" alt="Nossa lembrança 16"><span class="photo-placeholder">Foto 16</span></div><figcaption>Foto tirada no nosso "cumple mes 4", na sua cafeteria favorita</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="letters-section section" id="cartas">
+      <div class="section-heading">
+        <p class="eyebrow">PALAVRAS QUE VÊM DO CORAÇÃO</p>
+        <h2>Duas cartas,<br><em>dois pedacinhos de mim.</em></h2>
+        <p>Abra cada envelope. Escrevi pensando em você Meu Amor.</p>
+      </div>
+      <div class="letter-grid">
+        <button class="letter-card" type="button" data-letter="birthday">
+          <span class="envelope-icon">✉</span><span class="letter-number">01 · PARA O SEU DIA</span>
+          <strong>À minha garota<br>de aniversário</strong><span class="letter-open">Abrir carta ↗</span>
+        </button>
+        <button class="letter-card letter-card-pink" type="button" data-letter="us">
+          <span class="envelope-icon">♡</span><span class="letter-number">02 · SOBRE NÓS</span>
+          <strong>Mesmo com<br>quilômetros entre nós</strong><span class="letter-open">Abrir carta ↗</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="distance-section section" id="distancia">
+      <div class="distance-content">
+        <p class="eyebrow">DO CHILE ATÉ O BRASIL</p>
+        <h2>A distância é grande.<br><em>O meu carinho, maior.</em></h2>
+        <p>Hoje não posso estar aí para te abraçar pessoalmente, mas queria que este pequeno universo chegasse até você como um abraço meu. Existem quilômetros entre nossos endereços, mas você continua pertinho dos meus pensamentos.</p>
+        <div class="reunion-visual" id="reunionVisual" aria-label="Marco no Chile se encontra com Nalanda no Brasil">
+          <div class="reunion-country"><span class="route-heart">♥</span><b>CHILE</b><small>Marco</small></div>
+          <div class="reunion-path">
+            <span class="reunion-dashes" aria-hidden="true"></span>
+            <span class="travel-heart" aria-hidden="true">♥</span>
+            <span class="travel-person person-marco" aria-hidden="true">🧍‍♂️</span>
+            <span class="travel-person person-nalanda" aria-hidden="true">🧍‍♀️</span>
+            <span class="reunion-hands" aria-hidden="true">🤝</span>
+            <span class="reunion-kiss" aria-hidden="true">💋</span>
+          </div>
+          <div class="reunion-country"><span class="route-heart">♥</span><b>BRASIL</b><small>Nalanda</small></div>
+        </div>
+        <button class="reunion-button" id="reunionButton" type="button" aria-pressed="false">Aproximar nossos corações <span>♥</span></button>
+        <p class="reunion-status" id="reunionStatus" aria-live="polite">Toque para encurtar a distância por um instante.</p>
+      </div>
+      <div class="distance-decoration"><span>∞</span><small>perto no coração</small></div>
+    </section>
+
+    <section class="final-section section" id="final">
+      <div class="cake-wrap">
+        <div class="cake-candles" id="cakeCandles"><button class="flame" type="button" aria-label="Apagar velas">♨</button><button class="flame" type="button" aria-label="Apagar velas">♨</button><button class="flame" type="button" aria-label="Apagar velas">♨</button></div>
+        <div class="cake-top"></div><div class="cake-middle"></div><div class="cake-bottom"></div><div class="cake-plate"></div>
+      </div>
+      <div class="candle-celebration" id="candleCelebration" aria-hidden="true"></div>
+      <div class="final-memory-layout">
+        <figure class="final-photo"><img src="assets/fotos/Foto%208.jpeg" alt="Marco e Nalanda juntos"></figure>
+        <div class="final-copy">
+          <p class="eyebrow">UM ÚLTIMO DESEJO</p>
+          <h2>Que seu novo ciclo seja<br><em>tão lindo quanto você.</em></h2>
+          <p class="final-message">Feliz Aniversário, Minha Vida. Que nunca faltem motivos para sorrir, sonhos para realizar e amor para acompanhar cada passo seu. Eu te amo!</p>
+          <p class="signature">Com todo o meu amor, do Marco para você. <span>♥</span></p>
+        </div>
+        <figure class="final-photo"><img src="assets/fotos/foto%2019.jpeg" alt="Marco e Nalanda juntos"></figure>
+      </div>
+      <button class="primary-button replay-button" id="replayButton" type="button">Ver a surpresa novamente</button>
+    </section>
+
+  </main>
+
+  <footer>FEITO COM AMOR <span>♥</span> PARA NALANDA</footer>
+
+
+
+  <div class="modal" id="letterModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="true"></div>
+    <article class="letter-paper" role="dialog" aria-modal="true" aria-labelledby="letterTitle">
+      <button class="modal-close" id="closeModal" type="button" aria-label="Fechar carta">×</button>
+      <p class="eyebrow" id="letterEyebrow">UMA CARTA PARA VOCÊ</p>
+      <h2 id="letterTitle">Minha Nalanda,</h2>
+      <div class="letter-body" id="letterBody"></div>
+      <p class="letter-signature">Com amor e carinho, Marco. <span>♥</span></p>
+    </article>
+  </div>
+
+  <div class="photo-lightbox" id="photoLightbox" aria-hidden="true">
+    <button class="photo-lightbox-backdrop" type="button" data-photo-close="true" aria-label="Fechar foto ampliada"></button>
+    <figure class="photo-lightbox-content" role="dialog" aria-modal="true" aria-label="Foto ampliada">
+      <button class="photo-lightbox-close" id="closePhoto" type="button" aria-label="Fechar foto">×</button>
+      <img id="lightboxImage" src="" alt="">
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+  </div>
+
+  <audio id="backgroundMusic" src="assets/musica/TIAGO%20IORC%20-%20Coisa%20Linda.mp3" preload="metadata" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
